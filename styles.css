@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.structure {
+  margin-top: 100px;
+  display: inline-block;
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.top-picture {
+  border-radius: 20px 20px 0 0;
+}
+
+.order-summary {
+  font-family: "Courier New", Courier;
+}
+
+.summary-content {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-family: "Courier New", Courier;
+}
+
+.annual-plan {
+  height: 48px;
+  width: 50%;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.08);
+  font-family: "Courier New", Courier;
+  font-size: 16px;
+}
+
+.plan-title {
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+
+.plan-price {
+  margin-top: 0px;
+  position: relative;
+  right: 12px;
+}
+
+.music-icon {
+  float: left;
+  margin-right: 0;
+  left: 50px;
+}
+
+
+
+.proceed {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  height: 2.8rem;
+  width: 80%;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: mediumblue;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.proceed:hover {
+  background-color: hsl(256, 100%, 71%);
+  cursor: pointer;
+}
+
+.cancel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1.5rem;
+  width: 35%;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: hsl(225, 100%, 98%);
+  color: grey;
+  font-size: 0.85rem;
+
+  font-family: "Courier New", Courier;
+  font-weight: bold;
+}
+
+.cancel:hover {
+  background-color: hsl(249, 69%, 75%);
+  color: white;
+  cursor: pointer;
+}
